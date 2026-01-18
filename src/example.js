@@ -1,7 +1,6 @@
-// Intentional linting errors to test the workflow
-const unusedVariable = "This variable is unused"; // Unused var, double quotes
+// Fixed linting errors
 function testFunction() {
-  let missingSemicolon = "No semicolon here" // Missing semicolon
-  console.log("Using double quotes instead of single") // Double quotes, console (warn)
+  let usedVariable = 'This variable is used';
+  console.log('Using single quotes correctly');
 }
-testFunction() // Missing semicolon
+testFunction();
